@@ -30,10 +30,6 @@ a:hover {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
-.logo {
-  flex-grow: 2;
-}
-
 @media (max-width: 360px) {
   .logo {
     display: none;
@@ -48,6 +44,7 @@ a:hover {
   height: 48px;
   width: 48px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  flex-grow: 2;
 }

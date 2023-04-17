@@ -70,8 +70,17 @@
   border-radius: 2px;
 }
 
+.button-disabled {
+  background-color: #9e7373;
+  color: #ffffff;
+}
+
 .button:hover {
   background: #202f86;
+}
+
+.button-disabled:hover {
+  background-color: #9e7373;
 }
 
 input::-webkit-outer-spin-button,
@@ -86,16 +95,19 @@ input[type="number"] {
 
 input {
   height: 44px;
-  width: 104px;
+  width: 90px;
   font-weight: 700;
   font-size: x-large;
   text-align: center;
   border: #3f51b5 1px solid;
 }
 
-.control:nth-child(2) {
-
+.button-add {
   border-radius: 2px 0 0 2px ;
+}
+
+.button-remove {
+  border-radius: 0 2px 2px 0;
 }
 
 .control {
@@ -106,9 +118,9 @@ input {
   color: #ffffff;
   text-align: center;
   line-height: 48px;
-  border-radius: 0 5px 5px 0;
 }
 
 .control:hover {
   background: #202f86;
 }
+

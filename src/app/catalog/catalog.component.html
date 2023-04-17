@@ -1,15 +1,24 @@
 <div class="container">
   <div *ngFor="let product of products" class="card">
-    <div class="material-symbols-outlined">{{ product?.img }}</div>
+    <!-- <div class="material-symbols-outlined">{{ product?.img }}</div> -->
+    <img src="../../assets/noPhoto.png" alt="noPhoto" height="237px" width="235px"/>
     <div class="title">{{ product?.title }}</div>
     <div class="category">Category: {{ product?.category }}</div>
     <div class="price">{{ product?.price }} {{ product?.currency }}</div>
-    <div class="stock">On stock: <span class="quantity">{{ product?.stock}}</span> {{ product?.uom }}</div>
+    <div class="stock">
+      On stock: <span class="quantity">{{ product?.stock }}</span>
+      {{ product?.uom }}
+    </div>
     <div class="controllers">
-      <a class="button">Buy</a>
-      <div class="material-symbols-outlined control">add</div>
-      <input type="number"/>
-      <div class="material-symbols-outlined control">remove</div>
+      <a class="button button-disabled" *ngIf="!product.stock; else exist" >Out of stock</a>
+      <ng-template #exist>
+      <a class="button" *ngIf="!product.order; else controlls" (click)="buy(product!.id)">Buy</a>
+      <ng-template #controlls>
+        <div class="material-symbols-outlined control button-add" (click)="increase(product!.id)">add</div>
+        <input type="number" readonly [(ngModel)]="product.order" name="value" (change)="(setToLocal(product!.id))"/>
+        <div class="material-symbols-outlined control button-remove" (click)="decrease(product!.id)">remove</div>
+      </ng-template>
+    </ng-template>
     </div>
   </div>
 </div>

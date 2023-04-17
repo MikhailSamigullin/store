@@ -1,17 +1,27 @@
 {
   "products": [
     {
-      "img": "face",
-      "title": "Product 1",
-      "category": "Category 1",
-      "price": "550",
+      "id": 0,
+      "title": "Product 0",
+      "category": "Category 0",
+      "price": "5500",
       "currency": "RUB",
-      "stock": 5,
+      "stock": 50,
       "uom": "units",
       "warehouse": "Saratov"
     },
     {
-      "img": "mood",
+      "id": 1,
+      "title": "Product 1",
+      "category": "Category 1",
+      "price": "550",
+      "currency": "RUB",
+      "stock": 0,
+      "uom": "units",
+      "warehouse": "Saratov"
+    },
+    {
+      "id": 2,
       "title": "Product 2",
       "category": "Category 1",
       "price": "1550",
@@ -21,7 +31,7 @@
       "warehouse": "Saratov"
     },
     {
-      "img": "mood_bad",
+      "id": 3,
       "title": "Product 3",
       "category": "Category 1",
       "price": "5540",
@@ -31,7 +41,7 @@
       "warehouse": "Saratov"
     },
     {
-      "img": "sell",
+      "id": 4,
       "title": "Product 4",
       "category": "Category 2",
       "price": "5450",
@@ -41,17 +51,17 @@
       "warehouse": "Saratov"
     },
     {
-      "img": "local_mall",
+      "id": 5,
       "title": "Product 5",
       "category": "Category 2",
       "price": "5650",
       "currency": "RUB",
-      "stock": 5,
+      "stock": 0,
       "uom": "units",
       "warehouse": "Saratov"
     },
     {
-      "img": "shop",
+      "id": 6,
       "title": "Product 6",
       "category": "Category 2",
       "price": "5520",
@@ -61,7 +71,7 @@
       "warehouse": "Saratov"
     },
     {
-      "img": "check",
+      "id": 7,
       "title": "Product 7",
       "category": "Category 2",
       "price": "2550",
@@ -71,7 +81,7 @@
       "warehouse": "Saratov"
     },
     {
-      "img": "home",
+      "id": 8,
       "title": "Product 8",
       "category": "Category 3",
       "price": "5550",
@@ -81,7 +91,7 @@
       "warehouse": "Saratov"
     },
     {
-      "img": "settings",
+      "id": 9,
       "title": "Product 9",
       "category": "Category 3",
       "price": "6550",
@@ -91,7 +101,7 @@
       "warehouse": "Saratov"
     },
     {
-      "img": "star",
+      "id": 10,
       "title": "Product 10",
       "category": "Category 3",
       "price": "3550",

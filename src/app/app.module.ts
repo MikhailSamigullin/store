@@ -10,6 +10,8 @@ import { AboutComponent } from './about/about.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +22,9 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     NotFoundComponent,
     CatalogComponent,
+    CartComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, HttpClientModule],
+  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, HttpClientModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

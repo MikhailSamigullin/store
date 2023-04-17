@@ -11,6 +11,10 @@ export class LocalService {
     localStorage.setItem(key, value);
   }
 
+  public length() {
+    return localStorage.length;
+  }
+
   public getData(key: string) {
     return localStorage.getItem(key);
   }
