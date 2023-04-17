@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "img": "face",
+      "title": "Product 1",
+      "category": "Category 1",
+      "price": "550",
+      "currency": "RUB",
+      "stock": 5,
+      "uom": "units",
+      "warehouse": "Saratov"
+    },
+    {
+      "img": "mood",
+      "title": "Product 2",
+      "category": "Category 1",
+      "price": "1550",
+      "currency": "RUB",
+      "stock": 4,
+      "uom": "units",
+      "warehouse": "Saratov"
+    },
+    {
+      "img": "mood_bad",
+      "title": "Product 3",
+      "category": "Category 1",
+      "price": "5540",
+      "currency": "RUB",
+      "stock": 5,
+      "uom": "units",
+      "warehouse": "Saratov"
+    },
+    {
+      "img": "sell",
+      "title": "Product 4",
+      "category": "Category 2",
+      "price": "5450",
+      "currency": "RUB",
+      "stock": 15,
+      "uom": "units",
+      "warehouse": "Saratov"
+    },
+    {
+      "img": "local_mall",
+      "title": "Product 5",
+      "category": "Category 2",
+      "price": "5650",
+      "currency": "RUB",
+      "stock": 5,
+      "uom": "units",
+      "warehouse": "Saratov"
+    },
+    {
+      "img": "shop",
+      "title": "Product 6",
+      "category": "Category 2",
+      "price": "5520",
+      "currency": "RUB",
+      "stock": 5,
+      "uom": "units",
+      "warehouse": "Saratov"
+    },
+    {
+      "img": "check",
+      "title": "Product 7",
+      "category": "Category 2",
+      "price": "2550",
+      "currency": "RUB",
+      "stock": 7,
+      "uom": "units",
+      "warehouse": "Saratov"
+    },
+    {
+      "img": "home",
+      "title": "Product 8",
+      "category": "Category 3",
+      "price": "5550",
+      "currency": "RUB",
+      "stock": 3,
+      "uom": "units",
+      "warehouse": "Saratov"
+    },
+    {
+      "img": "settings",
+      "title": "Product 9",
+      "category": "Category 3",
+      "price": "6550",
+      "currency": "RUB",
+      "stock": 53,
+      "uom": "units",
+      "warehouse": "Saratov"
+    },
+    {
+      "img": "star",
+      "title": "Product 10",
+      "category": "Category 3",
+      "price": "3550",
+      "currency": "RUB",
+      "stock": 15,
+      "uom": "units",
+      "warehouse": "Saratov"
+    }
+  ]
+}

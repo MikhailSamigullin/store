@@ -1,0 +1,15 @@
+<div class="container">
+  <div *ngFor="let product of products" class="card">
+    <div class="material-symbols-outlined">{{ product?.img }}</div>
+    <div class="title">{{ product?.title }}</div>
+    <div class="category">Category: {{ product?.category }}</div>
+    <div class="price">{{ product?.price }} {{ product?.currency }}</div>
+    <div class="stock">On stock: <span class="quantity">{{ product?.stock}}</span> {{ product?.uom }}</div>
+    <div class="controllers">
+      <a class="button">Buy</a>
+      <div class="material-symbols-outlined control">add</div>
+      <input type="number"/>
+      <div class="material-symbols-outlined control">remove</div>
+    </div>
+  </div>
+</div>
